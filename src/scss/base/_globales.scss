@@ -1,0 +1,72 @@
+@use 'variables' as v;
+@use 'base/mixins' as m;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: v.$fuente_principal;
+    font-size: 1.6rem;
+    &.fijar-body{
+        overflow: hidden;//para quitar el scroll
+    }
+    &.body-scroll{
+        @include m.tablet {
+            padding-top:14.3rem;
+        }
+        @include m.desktop   {
+            padding-top: 9.1rem;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.8rem;
+    color: v.$negro;
+    
+}
+img{
+    max-width: 100%;
+    width:100%;
+    height: auto;
+    display:block;
+
+}
+
+

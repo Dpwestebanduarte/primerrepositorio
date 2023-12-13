@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=   :wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/build/css/app.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-principal">
+            <h1>Rock Y EDM Festival</h1>
+            <nav class="navegacion-principal">
+                <a id="este" class="esta" href="#lineup">Line Up</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Rock Y EDN Festival</h2>
+                <p>hermosillo,sonora 05 de julio del 2000</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                <img loading="lazy" height="300" width="200" src="/src/img/imagen_vocalista.jpg" alt="imagen vocalista">
+            </picture>
+
+
+
+        </div>
+        <div class="contenido-festival">
+            <h2>Rock Y END Festival</h2>
+            <p class="fecha">05 de julio del 2022</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Quas omnis optio deleniti, fuga eius voluptate amet sunt ipsa, placeat
+                dicta, pr</p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+        <h1>line-up</h1>
+        <p class="fecha">viernes 29</p>
+        <div class="contenedor escenario-contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">escenario rock</p>
+                <ul class="calendario">
+                    <li>15:00 | <span>julion alvarez</span></li>
+                    <li>16:00 | <span>julion alvarez</span></li>
+                    <li>17:00 | <span>julion alvarez</span></li>
+                    <li>18:00 | <span>julion alvarez</span></li>
+                    <li>19:00 | <span>julion alvarez</span></li>
+                </ul>
+            </div>
+            <div class="escenario EDM bg-verde">
+                <p class="nombre-escenario">escenario rock</p>
+                <ul class="calendario">
+                    <li>20:00 | <span>alfrefito olivas</span></li>
+                    <li>21:00 | <span>alfrefito olivas</span></li>
+                    <li>22:00 | <span>alfrefito olivas</span></li>
+                    <li>23:00 | <span>alfrefito olivas</span></li>
+                    <li>19:00 | <span>alfrefito olivas</span></li>
+                </ul>
+            </div>
+        </div>
+        <p class="fecha">sabado 30</p>
+        <div class="contenedor escenario-contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">escenario EDN</p>
+                <ul class="calendario">
+                    <li>15:00 | <span>vicente fernandez</span></li>
+                    <li>16:00 | <span>vicente fernandez</span></li>
+                    <li>17:00 | <span>vicente fernandez</span></li>
+                    <li>18:00 | <span>vicente fernandez</span></li>
+                    <li>19:00 | <span>vicente fernandez</span></li>
+                </ul>
+            </div>
+            <div class="escenario EDM bg-verde">
+                <p class="nombre-escenario">escenario EDN</p>
+                <ul class="calendario">
+                    <li>20:00 | <span>los cumbia kings</span></li>
+                    <li>21:00 | <span>los cumbia kings</span></li>
+                    <li>22:00 | <span>los cumbia kings</span></li>
+                    <li>23:00 | <span>los cumbia kings</span></li>
+                    <li>24:00 | <span>los cumbia kings</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h2>galeria</h2>
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>boletos</h3>
+        <div class="contenedor contenedor-boletos">
+            <div class="basico pase">
+                <p class="diaa">pase 1 dia</p>
+                <header class="pase-header">
+                    <p>incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>acceso a ambos escenarios</li>
+                        <li>incluye comida y bebida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$100</p>
+                </footer>
+            </div>
+            <div class="premium pase">
+                <p class="diaa">pase 2 dia</p>
+                <header class="pase-header">
+                    <p>incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>acceso a ambos escenarios</li>
+                        <li>incluye comida y bebida</li>
+                        <li>camisa del evento</li>
+                        <li>pase vip</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$180</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-festival">
+        <p>Rock y EDM Festival. Todos los derechos reservador</p>
+    </footer>
+
+
+    <script src="build/js/app.js"></script>
+
+
+    <!-- ======================================================= -->
+    <!-- para un mixin mas inteligente -->
+    <!-- <h1 class="primera">primer prueva de mixins</h1>
+    <h2 class="segunda">segunda prueva de mixins</h2> -->
+    <!-- ============================================================= -->
+</body>
+
+</html>
+
+
+
+<!-- terminal -->
+
+<!-- ctrl c ::::::::::::para detener una funcion que se este compilando -->
+<!--npm init::::::nos va realizar una serie de preguntas y nos va generar el archivo (package.json)  -->
+<!--npm i -D (sass,gulp, etc):::::para descargar las dependencias de desarrollo.  nos crea las carpetas de (node_modules) y (package-lock.json)   -->
+<!--npm i sass::::: descargar las dependencia -->
+<!--npm i::::: para recuperar la carpeta (node_modules) -->
+<!-- --watch:::::escucha por los cambios de los archivos -->
+
+<!--    (install)  o (i) -->
+<!--  (--save-dev) o (-D)  -->
+
+<!-- npx:::::nos permite intalar paquetes sin necesidad de intalarlos globalmente -->
+<!-- npx:::::es algo que se unstala junto a node -->
+<!-- npx:::: es algo que se intala cuando descargas node -->
+
+
+<!-- para trabajar con npm run (nombre del script)  nesecito ponerlo en los scripts de package.json -->
+<!-- npm i -D gulp-plumber:::::::para hacer el error mas corto-->
+
+
+<!-- overlay::::ensimar/incrustarse -->
+<!-- script::::la escrutura / la letra -->
+<!-- watch:::::vigilancia / la guardia -->
+<!-- layout:::::el plan -->
+<!-- hover::::flotar -->
+<!-- loop::::lazo,bucle,circuito -->
+<!-- source::.:la fuente,de donde viene1 -->

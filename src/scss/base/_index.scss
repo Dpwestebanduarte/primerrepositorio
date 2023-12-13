@@ -1,0 +1,11 @@
+
+
+// el orden es importante variables, normalize,globales
+@forward 'variables';
+@forward 'mixins';
+@forward 'normalize';
+@forward 'globales';
+
+
+
+// todos los que comienzan con @ son propios de sass o se les conoce como directivas

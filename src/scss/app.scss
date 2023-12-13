@@ -1,0 +1,14 @@
+    // forma antigua
+// @import 'base/variables';
+// @import 'contenido/contenido';
+
+// forma nueva
+@use'base'; 
+@use'layout';
+        
+
+
+
+
+// instalas una dependencia con::::::::(install)
+// para correr o mandar llamar un scrips::::::: npm run (y el nombre del script)    
